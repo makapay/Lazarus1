@@ -1,0 +1,105 @@
+object Form1: TForm1
+  Left = 796
+  Height = 341
+  Top = 278
+  Width = 466
+  Caption = 'Form1'
+  ClientHeight = 341
+  ClientWidth = 466
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clBlack
+  Font.Height = -19
+  Font.Name = 'Segoe UI'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '2.2.4.0'
+  object Label3: TLabel
+    Left = 264
+    Height = 30
+    Top = 56
+    Width = 27
+    Caption = ' = '
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 144
+    Height = 33
+    Top = 56
+    Width = 88
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 16
+    Height = 33
+    Top = 56
+    Width = 88
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 328
+    Height = 33
+    Top = 56
+    Width = 80
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 40
+    Top = 120
+    Width = 88
+    Caption = ' + '
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 152
+    Height = 40
+    Top = 120
+    Width = 88
+    Caption = ' - '
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 16
+    Height = 40
+    Top = 192
+    Width = 88
+    Caption = ' * '
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 152
+    Height = 40
+    Top = 192
+    Width = 88
+    Caption = ' / '
+    OnClick = Button4Click
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 165
+    Height = 30
+    Top = 8
+    Width = 126
+    Caption = 'Калькулятор'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
