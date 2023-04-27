@@ -1,0 +1,85 @@
+object Form1: TForm1
+  Left = 704
+  Height = 294
+  Top = 468
+  Width = 410
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 294
+  ClientWidth = 410
+  Color = 16777170
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clBlack
+  Font.Height = -16
+  Font.Name = 'Segoe UI'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '2.0.8.0'
+  object Label1: TLabel
+    Left = 88
+    Height = 51
+    Top = 8
+    Width = 240
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Программа вычмслит скорость, с которой спортсмен ппробежал дистанцию'
+    ParentColor = False
+    WordWrap = True
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 21
+    Top = 80
+    Width = 96
+    Caption = 'Дистанция, м'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 21
+    Top = 128
+    Width = 63
+    Caption = 'Время, м'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 95
+    Top = 184
+    Width = 178
+    AutoSize = False
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 248
+    Height = 33
+    Top = 192
+    Width = 96
+    Caption = 'Вычислить'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 248
+    Height = 33
+    Top = 246
+    Width = 96
+    Caption = 'Завершить'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 192
+    Height = 29
+    Top = 72
+    Width = 80
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 192
+    Height = 29
+    Top = 120
+    Width = 80
+    TabOrder = 3
+  end
+end
